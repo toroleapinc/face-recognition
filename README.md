@@ -13,3 +13,12 @@ python evaluate.py
 ```
 
 Dataset: download ORL faces from https://cam-orl.co.uk/facedatabase.html and put in `data/orl_faces/`
+
+## Results
+
+| Method | Accuracy |
+|--------|----------|
+| Eigenface (PCA) | 93.3% |
+| Fisherface (LDA) | 96.7% |
+| Gabor + SVM | 95.0% |
+| Combined | 97.5% |
